@@ -5,9 +5,11 @@ import os
 import urllib.request
 import threading
 
-# If "result" folder doesn't exist, create it
+# If "result" folder doesn't exist, create it and download the images from the GitHub repository
 if not os.path.exists("result"):
     os.makedirs("result")
+    for i in range(16):
+        urllib.request.urlretrieve(f"https://github.com/wizpizz/DREAMpAI/blob/master/replacement/{i+1}.png", f"./replacement/{i+1}.jpg")
 
 # Resite value for the generated images
 resize = (int(320 / 3), int(522 / 3))
