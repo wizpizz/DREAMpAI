@@ -1,2 +1,2 @@
 # DREAMpAI
-A Tkinter app that generates Dream AI images with Dream by Wombo API
+A Tkinter app that generates Deep Dream images with Dream by Wombo API
