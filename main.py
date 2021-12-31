@@ -11,7 +11,7 @@ if not os.path.exists("result"):
 if not os.path.exists("replacement"):
     os.makedirs("replacement")
     for i in range(16):
-        urllib.request.urlretrieve(f"https://github.com/wizpizz/DREAMpAI/blob/master/replacement/{i+1}.png", f"./replacement/{i+1}.jpg")
+        urllib.request.urlretrieve(f"https://raw.githubusercontent.com/wizpizz/DREAMpAI/master/replacement/{i+1}.png", f"./replacement/{i+1}.png")
 
 
 # Resite value for the generated images
