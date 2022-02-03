@@ -14,8 +14,7 @@ if not os.path.exists("replacement"):
         urllib.request.urlretrieve(f"https://raw.githubusercontent.com/wizpizz/DREAMpAI/master/replacement/{i+1}.png", f"./replacement/{i+1}.png")
     urllib.request.urlretrieve("https://raw.githubusercontent.com/wizpizz/DREAMpAI/master/replacement/r.png", "./replacement/r.png")
 
-
-# Resite value for the generated images
+# Resize value for the generated images
 resize = (int(320 / 3), int(522 / 3))
 
 root = tk.Tk()
